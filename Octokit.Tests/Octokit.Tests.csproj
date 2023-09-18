@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>Tests for Octokit</Description>
@@ -28,7 +28,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Octokit\Octokit.csproj" />
     <ProjectReference Include="..\Octokit.Reactive\Octokit.Reactive.csproj" />
-    <PackageReference Include="NSubstitute" Version="4.2.2" />
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.1' ">
